@@ -1,0 +1,167 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* Qualidade */
+
+.qualidade:after {
+ 	right: 66px;
+}
+
+.qualidade ul li {
+	padding: 0 10px;
+}
+
+/* Produtos */
+
+.produto_item h2 {
+	top: -150px;
+	margin-bottom: -56px;
+}
+
+.produto_icone {
+	padding: 41px 0;
+}
+
+/* Footer */
+
+.redes-sociais-footer ul li a {
+	padding: 6px;
+}
+
+.redes-sociais-footer ul li a img {
+	width: 24px;
+	height: 24px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/* Header */
+
+.header {
+	position: relative;
+	text-align: center; 
+	padding-bottom: 0;
+}
+
+.header img {
+	margin: 0 auto 10px auto;
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul li {
+	margin: 5px;
+}
+
+.header_menu ul li a {
+	border: 4px solid #000;
+	width: 136px;
+	display: block;
+	float: left; 
+}
+
+.header_menu ul li a:hover {
+	border-color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+
+/* Introdução */
+
+.introducao {
+	margin-top: 0;
+	padding-top: 60px;
+	background: url("../img/foto-intro-mobile.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.introducao h1 {
+	font-size: 36px;
+}
+
+.introducao-interna {
+	margin-top: 0;
+}
+
+/* Call */
+
+.call {
+	padding-top: 10px;
+}
+
+/* Qualidade Home */
+
+.qualidade:after {
+	display: none;
+}
+
+/* Sobre */
+
+.interna-sobre {
+	background: url("../img/sobre/bg-sobre-mobile.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.missao_sobre p {
+	padding-right: 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.missao_sobre ul li {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/* Produtos */
+
+.produto_item h2 {
+	top: -100px;
+	margin-bottom: -68px;
+}
+
+.produto_icone {
+	padding: 41px 0;
+}
+
+.produto_item_tipo {
+	margin-bottom: 80px;
+}
+
+/* Orçamento */
+
+.orcamento {
+	margin-top: 0;
+}
+
+.form {
+	padding-right: 0;
+}
+
+.orcamento_dados ul {
+	padding-right: 0;
+}
+
+/* Portfólio */
+
+.quote-clientes p, .quote-clientes cite {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/* Contato */
+
+.form-contato {
+	margin-bottom: 40px;
+}
+
+.contato_redes-sociais {
+	margin-bottom: 110px;
+}
+
+}
